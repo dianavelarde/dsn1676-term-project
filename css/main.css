@@ -33,6 +33,33 @@ body {
   margin-top: 4em;
   width: 20%;
   position: relative;
+  -webkit-animation: scale-liagture 1s ease-in-out infinite alternate;
+  animation: scale-ligature 1s ease-in-out infinite alternate;
+    z-index: 1;
+}
+
+@-webkit-keyframes scale-ligature {
+    
+    0% {
+        transform: scale(1,1);
+    }
+    
+    100% {
+       transform: scale(1.2,1.2);
+    }
+            
+}
+
+@keyframes scale-ligature {
+    
+    0% {
+         transform: scale(1,1);
+    }
+    
+    100% {
+         transform: scale(1.2,1.2);
+    }
+    
 }
 
 .title {
@@ -73,7 +100,7 @@ body {
   width: 100%;
   background-image: url("../images/background.svg");
   background-repeat: no-repeat;
-  height: 120vh;
+  height: 100vh;
   position: absolute;
   background-position: center;
 
@@ -83,7 +110,7 @@ body {
 }
 
 .background:hover {
-  background-position: center -1em;
+  background-position: center 2em;
   -webkit-transition: all 3s linear;
   transition: all 3s linear;
 }
