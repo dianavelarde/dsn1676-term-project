@@ -34,8 +34,8 @@ body {
   width: 20%;
   position: relative;
     
-  -webkit-animation: scale-liagture 1s ease-in-out infinite alternate;
-  animation: scale-ligature 1s ease-in-out infinite alternate;
+  -webkit-animation: scale-ligature 1s infinite alternate;
+  animation: scale-ligature 1s infinite alternate;
 }
 
 @-webkit-keyframes scale-ligature {
@@ -70,9 +70,36 @@ body {
 
 .subheader {
   font-family: 'Damion', cursive;
+  font-family: 'Damion', cursive;
   padding-bottom: .5em;
   position: relative;
   margin-bottom: .5em; 
+  -webkit-animation: scale-sub 1s infinite alternate;
+  animation: scale-sub 1s infinite alternate;
+}
+
+@-webkit-keyframes scale-sub {
+    
+    0% {
+        -webkit-transform: scale(1,1);
+    }
+    
+    100% {
+        -webkit-transform: scale(1.05,1.05);
+    }
+            
+}
+
+@keyframes scale-sub {
+    
+    0% {
+         transform: scale(1,1);
+    }
+    
+    100% {
+         transform: scale(1.05,1.05);
+    }
+    
 }
 
 .arrow {
