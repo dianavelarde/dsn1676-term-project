@@ -77,3 +77,24 @@ body {
   -webkit-transition: all 1000ms linear;
   transition: all 1000ms linear;
 }
+
+.background {
+  width: 100%;
+  background-image: url("../images/background.svg");
+  background-repeat: no-repeat;
+  height: 50vh;
+  position: absolute;
+  top:17em;
+  background-position: center 2em;
+
+  background-size: 120%;
+  -webkit-animation: waves 10s linear infinite alternate;
+  animation: waves 10s linear infinite alternate; 
+}
+
+.background:hover {
+  background-position: center -.5em;
+  -webkit-transition: all 1000ms linear;
+  transition: all 1000ms linear;
+}
+
