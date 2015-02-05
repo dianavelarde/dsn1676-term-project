@@ -33,6 +33,7 @@ body {
   margin-top: 4em;
   width: 20%;
   position: relative;
+    
   -webkit-animation: scale-liagture 1s ease-in-out infinite alternate;
   animation: scale-ligature 1s ease-in-out infinite alternate;
 }
