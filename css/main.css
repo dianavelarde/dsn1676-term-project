@@ -196,7 +196,6 @@ body {
     background-position: center;
     background-size:100%;
     overflow: hidden;
-    font-size: 90rem;
 }
 
 .bucket2{
@@ -223,12 +222,24 @@ body {
     overflow: hidden;
 }
 
-h3{ margin:0;
+.caption{ 
+    margin:0 0 0;
     text-align: center;
-    padding: 9.5rem;
     color: white;
+    font-size: 300%;
+    padding-bottom: 4em;
+    padding-top: 2em;
 }
 
+.book-rd{
+  background-image: url(../images/book-redesign.jpg)
+  right: -11em;
+  top: calc(50% - 40px);
+  -webkit-transform: rotate(45deg);
+  -webkit-transition: right 510ms;
+  transition: all 510ms linear;
+
+}
 @media only screen and (min-width: 25em) {
   .arrow {
     width: `175%;
