@@ -188,7 +188,45 @@ body {
     margin-top: -1.5em;
     font-family: sans-serif;
     font-size: 90%;
+}
 
+.bucket1{
+    background-image: url("../images/redbucket.svg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:100%;
+    overflow: hidden;
+    font-size: 90rem;
+}
+
+.bucket2{
+    background-image: url("../images/greenbucket.svg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:100%;
+    overflow: hidden;
+}
+
+.bucket3{
+    background-image: url("../images/purplebucket.svg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:100%;
+    overflow: hidden;
+}
+
+.bucket4{
+    background-image: url("../images/orangebucket.svg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:100%;
+    overflow: hidden;
+}
+
+h3{ margin:0;
+    text-align: center;
+    padding: 9.5rem;
+    color: white;
 }
 
 @media only screen and (min-width: 25em) {
