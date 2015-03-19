@@ -103,7 +103,7 @@ body {
 }
 
 .arrow {
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
   text-align: center;
   width: 10%;
   position: relative;
@@ -176,14 +176,24 @@ body {
   background-size: 100%;
 }
 
-.bucket-1{
-    top: -9em;
-    background-color: black;
+.intro {
+    margin-top: 20em;
+}
+
+.center{
+    text-align: center;
+}
+
+.p1 {
+    margin-top: -1.5em;
+    font-family: sans-serif;
+    font-size: 90%;
+
 }
 
 @media only screen and (min-width: 25em) {
   .arrow {
-    width: 7%;
+    width: `175%;
 }
 }
 
