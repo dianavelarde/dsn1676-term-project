@@ -114,35 +114,75 @@ body {
   transform: rotate(180deg);
 }
 
-.nav-button {
-  top:  2em;
-  left: 13%;
-  position: absolute;
-  background: url("../images/toggle.svg") no-repeat;
-  height: 1em;
-  width: 1em;
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color:#25acb7;
+    display: none;
+    position: absolute;
+    top:  4em;
+    left: 13%;
+}
+
+.nav a{
+    display: block;
+    padding: 0.5em;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav a:hover {
+    background-color: #cb6594;
+    color: #fff;
+}
+
+.nav-check:checked ~ .nav {
+    display: block;
+}
+   
+.nav-label {
+    cursor: pointer;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    background: url("../images/toggle.svg")no-repeat;
+    background-size: 35px auto;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    top:  2em;
+    left: 13%;
+}
+
+.nav-check {
+    position: absolute;
+    top: -3em;
+}
+.nav-check:checked ~ .nav-label {
+    background-color: #25acb7;
+    background-position: center bottom;
 }
     
 .background {
   width: 100%;
-  height: 65%;
+  height: 100%;
   background-image: url("../images/background.svg");
   background-repeat: no-repeat;
   position: absolute;
   background-position: center;
-
+  margin-top: -3em;
   background-size: 100%;
 }
 
 @media only screen and (min-width: 25em) {
- 
   .arrow {
     width: 7%;
 }
 }
 
 @media only screen and (min-width: 38em) {
-
   .arrow {
     width: 7%;
 }
@@ -150,23 +190,14 @@ body {
 
 
 @media only screen and (min-width: 60em) {
-
-
   .arrow {
     width: 5%;
 }
 }
 
 @media only screen and (min-width: 80em) {
-
+}
 
 @media only screen and (min-width: 90em) {
-
 }
-.nav-button {
- 
-  height: 3em;
-  width: 3em;
-}
-
 
