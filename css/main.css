@@ -176,6 +176,11 @@ body {
   background-size: 100%;
 }
 
+.bucket-1{
+    top: -9em;
+    background-color: black;
+}
+
 @media only screen and (min-width: 25em) {
   .arrow {
     width: 7%;
