@@ -125,53 +125,24 @@ body {
     
 .background {
   width: 100%;
+  height: 65%;
   background-image: url("../images/background.svg");
   background-repeat: no-repeat;
-  height: 100vh;
   position: absolute;
   background-position: center;
 
-  background-size: 120%;
-  -webkit-animation:  move-background 5s linear infinite alternate;
-  animation: move-background 5s linear infinite alternate; 
+  background-size: 100%;
 }
-
-.background:hover {
-  background-position: center 2em;
-  -webkit-transition: all 3s linear;
-  transition: all 3s linear;
-}
-
 
 @media only screen and (min-width: 25em) {
-    
-  .background {
-    height:  160vh;
-  }
-
-  .background:hover {
-    background-position: center -1.5em;
-    -webkit-transition: all 2s linear;
-    transition: all 2s linear;
-
-}
+ 
   .arrow {
     width: 7%;
 }
 }
 
 @media only screen and (min-width: 38em) {
-    
-  .background {
-    height:  190vh;
-  }
 
-  .background:hover {
-    background-position: center -10em;
-    -webkit-transition: all 1.5s linear;
-    transition: all 1.5s linear;
-
-}
   .arrow {
     width: 7%;
 }
@@ -180,15 +151,6 @@ body {
 
 @media only screen and (min-width: 60em) {
 
-  .background {
-    height:  255vh;
-  }
-
-  .background:hover {
-    background-position: center -17em;
-    -webkit-transition: all 1s linear;
-    transition: all 1s linear;
-  }
 
   .arrow {
     width: 5%;
@@ -196,24 +158,10 @@ body {
 }
 
 @media only screen and (min-width: 80em) {
-    .background {
-    height:  315vh;
-  }
 
-  .background:hover {
-    background-position: center -25em;
-    -webkit-transition: all 1s linear;
-    transition: all 1s linear;
-}
-}
 
 @media only screen and (min-width: 90em) {
 
-      .background:hover {
-  background-position: center -25em;
-  -webkit-transition: all 1s linear;
-  transition: all 1s linear;
-}
 }
 .nav-button {
  
