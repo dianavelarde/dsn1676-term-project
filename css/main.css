@@ -231,15 +231,37 @@ body {
     padding-top: 2em;
 }
 
-.book-rd{
-  background-image: url(../images/book-redesign.jpg)
-  right: -11em;
-  top: calc(50% - 40px);
-  -webkit-transform: rotate(45deg);
-  -webkit-transition: right 510ms;
-  transition: all 510ms linear;
+section {
+    position: relative;
+    bottom: 22em;
+    left: 9em;
+    width: 75%;
+    
+    
+}
+
+button {
+   margin-left: -12em;
+}
+
+.pink{
+  position: absolute;
+
 
 }
+.book {
+  right: -25em;
+  top: calc(40% - 20px);
+  -webkit-transition: right 400ms;
+  transition: all 400ms linear;
+
+}
+
+.js-book{
+  right: 3em;
+}
+
+
 @media only screen and (min-width: 25em) {
   .arrow {
     width: `175%;
