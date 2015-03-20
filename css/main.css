@@ -241,7 +241,6 @@ button {
     margin-left: -8em;
     border-color: white;
     border-style: solid;
-    border-radius: none;
     background-color: transparent;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -249,7 +248,7 @@ button {
     color: white;
     font-family: 'Damion', cursive;
     font-size: 16px;
-    text-align: centerl
+    text-align: center
 }
 
 .pink{
@@ -259,7 +258,7 @@ button {
 }
 .book {
   right: -25em;
-  top: calc(40% - 20px);
+  top: calc(40% - 40px);
   -webkit-transition: right 400ms;
   transition: all 400ms linear;
 
@@ -271,7 +270,7 @@ button {
 
 .quinoa {
   right: -25em;
-  top: calc(40% - 20px);
+  top: calc(40% - 40px);
   -webkit-transition: right 400ms;
   transition: all 400ms linear;
 }
@@ -282,7 +281,7 @@ button {
 
 .izze{
   right: -25em;
-  top: calc(40% - 20px);
+  top: calc(40% - 40px);
   -webkit-transition: right 400ms;
   transition: all 400ms linear;
 }
@@ -293,7 +292,7 @@ button {
 
 .kiko{
     right: -25em;
-  top: calc(40% - 20px);
+  top: calc(40% - 40px);
   -webkit-transition: right 400ms;
   transition: all 400ms linear;
 }
