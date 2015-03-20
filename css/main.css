@@ -234,13 +234,11 @@ section {
     position: relative;
     bottom: 22em;
     left: 9em;
-    width: 75%;
-    
-    
+    width: 75%;   
 }
 
 button {
-   margin-left: -8em;
+    margin-left: -8em;
     border-color: white;
     border-style: solid;
     border-radius: none;
@@ -272,18 +270,18 @@ button {
 }
 
 .quinoa {
-    right: -25em;
+  right: -25em;
   top: calc(40% - 20px);
   -webkit-transition: right 400ms;
   transition: all 400ms linear;
 }
 
 .js-quinoa{
-      right: 3em;
+    right: 3em;
 }
 
 .izze{
-    right: -25em;
+  right: -25em;
   top: calc(40% - 20px);
   -webkit-transition: right 400ms;
   transition: all 400ms linear;
@@ -338,6 +336,12 @@ button {
     .intro {
         margin-top: 36em;
 }
+    section {
+        position: relative;
+        bottom: 19.5em;
+        left: 7em;
+        width: 86.5%;
+    }
 }
 
 @media only screen and (min-width: 90em) {
