@@ -70,7 +70,6 @@ body {
 
 .subheader {
   font-family: 'Damion', cursive;
-  font-family: 'Damion', cursive;
   padding-bottom: .5em;
   position: relative;
   margin-bottom: .5em; 
@@ -241,7 +240,18 @@ section {
 }
 
 button {
-   margin-left: -12em;
+   margin-left: -8em;
+    border-color: white;
+    border-style: solid;
+    border-radius: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    color: white;
+    font-family: 'Damion', cursive;
+    font-size: 16px;
+    text-align: centerl
 }
 
 .pink{
