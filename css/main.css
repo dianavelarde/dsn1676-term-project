@@ -283,6 +283,18 @@ button {
       right: 3em;
 }
 
+.kiko{
+    right: -25em;
+  top: calc(40% - 20px);
+  -webkit-transition: right 400ms;
+  transition: all 400ms linear;
+}
+
+.js-kiko{
+      right: 3em;
+}
+
+
 @media only screen and (min-width: 25em) {
   .arrow {
     width: `175%;
