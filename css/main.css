@@ -310,7 +310,7 @@ button {
       width: 6%;
 }
     .intro {
-        margin-top: 28em;
+        margin-top: 29em;
 }
 }
 
@@ -320,13 +320,19 @@ button {
     width: 5%;
 }
      .intro {
-        margin-top: 37em;
+        margin-top: 32em;
 }
 }
 
 @media only screen and (min-width: 80em) {
+    .intro {
+        margin-top: 36em;
+}
 }
 
 @media only screen and (min-width: 90em) {
+        .intro {
+        margin-top: 38em;
+}
 }
 
