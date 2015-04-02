@@ -106,12 +106,9 @@ body {
     text-align: center;
     width: 10%;
     position: relative;
+    image-orientation: 90deg;
 }
 
-.arrow:hover {
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
-}
 
 .nav {
     margin: 0;
