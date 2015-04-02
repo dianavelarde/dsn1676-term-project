@@ -1,1 +1,2 @@
 $('.nav').localScroll();
+$('.top').localScroll();
