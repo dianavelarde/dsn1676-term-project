@@ -327,13 +327,13 @@ padding-top: 1em;}
         width: 5%;
 }
      .intro {
-        margin-top: 32em;
+        margin-top: 35em;
 }
 }
 
 @media only screen and (min-width: 80em) {
     .intro {
-        margin-top: 36em;
+        margin-top: 37em;
 }
     section {
         position: relative;
