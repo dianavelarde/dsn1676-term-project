@@ -308,13 +308,28 @@ padding-top: 1em;}
 }
 
 #left-arm {
-    transform: rotate(0deg);
-    transform-origin: center center;
-    transition: all 200ms linear;
+    transform:translateY(-3);
+    animation: waving 0.5s ease infinite alternate;
 }
 
-.me-graphic:hover #left-arm {
-    transform: rotate(-30deg);
+@keyframes waving {
+    0% {
+       transform:translateY(-3);
+    }
+    
+    100% {
+        transform:translateY(5px);
+    }
+    
+}
+
+#face {
+    transform: translateY(0);
+}
+
+#face:hover {
+    transform: translateY(7px);
+    }
 }
 
 
