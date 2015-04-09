@@ -304,8 +304,17 @@ padding-top: 1em;}
 .me-graphic {
     width: 150px;
     position: relative;
-    left: 35%;
-    
+    left: 35%;   
+}
+
+#left-arm {
+    transform: rotate(0deg);
+    transform-origin: center center;
+    transition: all 200ms linear;
+}
+
+.me-graphic:hover #left-arm {
+    transform: rotate(-30deg);
 }
 
 
