@@ -309,8 +309,20 @@ padding-top: 1em;}
 
 #left-arm {
     transform:translateY(-3);
-    animation: waving 0.5s ease infinite alternate;
+    -webkit-animation:waving 0.3s ease infinite alternate;
+    animation: waving 0.3s ease infinite alternate;
 }
+
+@-webkit-keyframes waving {
+    0% {
+        -webkit-transform: translateY(-5); 
+    }
+       100% {
+           -webkit-transform: translateY(5px);
+    }
+    
+}
+    
 
 @keyframes waving {
     0% {
