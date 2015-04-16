@@ -301,10 +301,31 @@ button {
 text-align: center;
 padding-top: 1em;}
 
-.me-graphic {
-    width: 150px;
+.me {
+    width: 100px;
+    height: auto;
     position: relative;
-    left: 35%;   
+    overflow: hidden;
+    left: 65%;
+    -webkit-transform: scale(1,1);
+    transform: scale(0,0);
+    -webkit-transition: all 500ms linear;
+    transition: all 500ms linear;
+}
+
+
+.animation{
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+      height: 180px;
+} 
+
+.rush-me {
+    top: 1em;
+  left: 10em;
+  -webkit-transform: scale(1,1);
+  transform: scale(1,1);
 }
 
 #left-arm {
