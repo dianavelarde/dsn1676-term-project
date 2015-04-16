@@ -318,11 +318,11 @@ padding-top: 1em;}
   overflow: hidden;
   text-align: center;
   position: relative;
-      height: 180px;
+  height: 180px;
 } 
 
 .rush-me {
-    top: 1em;
+  top: 1em;
   left: 10em;
   -webkit-transform: scale(1,1);
   transform: scale(1,1);
@@ -383,6 +383,9 @@ padding-top: 1em;}
     .intro {
         margin-top: 29em;
 }
+    .rush-me {
+        left: 20em;
+    }
 }
 
 
@@ -392,6 +395,9 @@ padding-top: 1em;}
 }
      .intro {
         margin-top: 35em;
+}
+    .rush-me {
+        left: 35em;
 }
 }
 
@@ -405,6 +411,10 @@ padding-top: 1em;}
         left: 7em;
         width: 86.5%;
     }
+    
+        .rush-me {
+        left: 38em;
+}
 }
 
 @media only screen and (min-width: 90em) {
