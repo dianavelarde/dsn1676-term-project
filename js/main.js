@@ -6,7 +6,6 @@ var $btnMove3 = $('.btn-move3');
 var $izze = $('.izze');
 var $btnMove4 = $('.btn-move4');
 var $kiko = $('.kiko');
-var $me = $('.me');
 
 $btnMove.on('click', function () {
     $book.toggleClass('js-book');
@@ -24,8 +23,3 @@ $btnMove3.on('click', function () {
 $btnMove4.on('click', function () {
     $kiko.toggleClass('js-kiko');
 });
-
-$me.waypoint(function (){
-	// console.log('waypoint');
-	$me.toggleClass('rush-me');
-}, {offset: '35%' });

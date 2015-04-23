@@ -298,73 +298,18 @@ button {
 }
 
 .top{
-text-align: center;
-padding-top: 1em;}
-
-.me {
-    width: 100px;
-    height: auto;
-    position: relative;
-    overflow: hidden;
-    left: 65%;
-    -webkit-transform: scale(1,1);
-    transform: scale(0,0);
-    -webkit-transition: all 500ms linear;
-    transition: all 500ms linear;
+    text-align: center;
+    padding-top: 1em;
 }
 
-
-.animation{
-  overflow: hidden;
-  text-align: center;
-  position: relative;
-  height: 180px;
-} 
-
-.rush-me {
-  top: 1em;
-  left: 10em;
-  -webkit-transform: scale(1,1);
-  transform: scale(1,1);
+.behance {
+    height: 40px;
 }
 
-#left-arm {
-    transform:translateY(-3);
-    -webkit-animation:waving 0.3s ease infinite alternate;
-    animation: waving 0.3s ease infinite alternate;
+.insta {
+    height: 40px;
+    padding-left: 9em;
 }
-
-@-webkit-keyframes waving {
-    0% {
-        -webkit-transform: translateY(-5); 
-    }
-       100% {
-           -webkit-transform: translateY(5px);
-    }
-    
-}
-    
-
-@keyframes waving {
-    0% {
-       transform:translateY(-3);
-    }
-    
-    100% {
-        transform:translateY(5px);
-    }
-    
-}
-
-#face {
-    transform: translateY(0);
-}
-
-#face:hover {
-    transform: translateY(7px);
-    }
-}
-
 
 @media only screen and (min-width: 25em) {
     .arrow {
@@ -383,9 +328,6 @@ padding-top: 1em;}
     .intro {
         margin-top: 29em;
 }
-    .rush-me {
-        left: 20em;
-    }
 }
 
 
@@ -395,9 +337,6 @@ padding-top: 1em;}
 }
      .intro {
         margin-top: 35em;
-}
-    .rush-me {
-        left: 35em;
 }
 }
 
@@ -411,10 +350,6 @@ padding-top: 1em;}
         left: 7em;
         width: 86.5%;
     }
-    
-        .rush-me {
-        left: 38em;
-}
 }
 
 @media only screen and (min-width: 90em) {
