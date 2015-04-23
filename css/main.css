@@ -317,7 +317,11 @@ button {
 }
     .intro {
         margin-top: 13em;
-}
+    }
+    
+    .insta {
+    padding-left: 9em;
+    }
 }
 
 @media only screen and (min-width: 38em) {
@@ -327,7 +331,10 @@ button {
 }
     .intro {
         margin-top: 29em;
-}
+    }
+    .insta {
+        padding-left: 15em;
+    }
 }
 
 
@@ -337,7 +344,10 @@ button {
 }
      .intro {
         margin-top: 35em;
-}
+     }
+    .insta {
+        padding-left: 32em;
+    }
 }
 
 @media only screen and (min-width: 80em) {
@@ -349,6 +359,9 @@ button {
         bottom: 19.5em;
         left: 7em;
         width: 86.5%;
+    }
+    .insta {
+         padding-left: 42em;
     }
 }
 
